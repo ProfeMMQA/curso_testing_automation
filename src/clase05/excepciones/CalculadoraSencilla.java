@@ -17,8 +17,15 @@ public class CalculadoraSencilla {
                 resultado = numero1 * numero2;
                 break;
             case '/':
-                resultado = numero1/numero2;
-                break;
+                try {
+                    resultado = numero1 / numero2;
+                    break;
+                } catch (ArithmeticException e) {
+                    throw new ArithmeticException("La division por cero no esta definida");
+                }
+            default:
+                throw new RuntimeException("No ingresaste una operación válida. " +
+                        "Las operaciones válidas son +, -, *, /");
         }
 
         return resultado;
