@@ -1,10 +1,10 @@
-package clase05.excepciones;
+package clase05.excepciones.calculadora.errorManejadoEnMetodo;
 
 
 public class CalculadoraSencilla {
-    public double realizarOperacion(double numero1, double numero2, char operacion) {
+    public int realizarOperacion(int numero1, int numero2, char operacion) throws ArithmeticException {
 
-        double resultado = 0.0;
+        int resultado = 0;
 
         switch (operacion) {
             case '+':

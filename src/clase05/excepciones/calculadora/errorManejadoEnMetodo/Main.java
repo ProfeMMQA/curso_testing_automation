@@ -1,6 +1,4 @@
-package clase05.excepciones;
-
-import jdk.internal.util.xml.impl.Input;
+package clase05.excepciones.calculadora.errorManejadoEnMetodo;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -12,16 +10,16 @@ public class Main {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Calculadora Sencilla");
-        double numero1;
-        double numero2;
+        int numero1;
+        int numero2;
         char operacion;
 
         try {
             System.out.print("Ingresa el primer número: ");
-            numero1 = input.nextDouble();
+            numero1 = input.nextInt();
 
             System.out.print("Ingresa el segundo número: ");
-            numero2 = input.nextDouble();
+            numero2 = input.nextInt();
         } catch (InputMismatchException e) {
             throw new RuntimeException("Numeros ingresados invalidos");
         }
@@ -31,7 +29,9 @@ public class Main {
 
         CalculadoraSencilla calculadora = new CalculadoraSencilla();
 
-        double resultado = calculadora.realizarOperacion(numero1, numero2, operacion);
+        int resultado;
+
+        resultado = calculadora.realizarOperacion(numero1, numero2, operacion);
 
         System.out.println("El resultado es: " + resultado);
 
