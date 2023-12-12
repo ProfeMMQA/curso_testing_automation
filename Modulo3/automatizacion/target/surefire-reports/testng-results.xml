@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-12T18:17:34 ART" name="ICARO Automatización de pruebas" finished-at="2023-12-12T18:17:34 ART" duration-ms="258">
+    <groups>
+    </groups>
+    <test started-at="2023-12-12T18:17:34 ART" name="Prueba de Matemática" finished-at="2023-12-12T18:17:34 ART" duration-ms="101">
+      <class name="org.example.PruebaSuma">
+        <test-method signature="validaSumaCero()[pri:0, instance:org.example.PruebaSuma@bef2d72]" started-at="2023-12-12T18:17:34 ART" name="validaSumaCero" finished-at="2023-12-12T18:17:34 ART" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaSumaCero -->
+      </class> <!-- org.example.PruebaSuma -->
+      <class name="org.example.PruebaProducto">
+        <test-method signature="validaProductoPorCero()[pri:0, instance:org.example.PruebaProducto@4c9f8c13]" started-at="2023-12-12T18:17:34 ART" name="validaProductoPorCero" finished-at="2023-12-12T18:17:34 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaProductoPorCero -->
+      </class> <!-- org.example.PruebaProducto -->
+    </test> <!-- Prueba de Matemática -->
+    <test started-at="2023-12-12T18:17:34 ART" name="Prueba de Soldado" finished-at="2023-12-12T18:17:34 ART" duration-ms="31">
+      <class name="org.example.PruebaSoldado">
+        <test-method signature="siUnNuevoSoldadoDescansaSusPuntosDeVidaMantienenElValorInicial()[pri:0, instance:org.example.PruebaSoldado@35ef1869]" started-at="2023-12-12T18:17:34 ART" name="siUnNuevoSoldadoDescansaSusPuntosDeVidaMantienenElValorInicial" finished-at="2023-12-12T18:17:34 ART" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siUnNuevoSoldadoDescansaSusPuntosDeVidaMantienenElValorInicial -->
+        <test-method signature="siUnSoldadoPeleaEntoncesSusPuntosDeVidaSeReducenALaMitadDelValorDelAtaque()[pri:0, instance:org.example.PruebaSoldado@35ef1869]" started-at="2023-12-12T18:17:34 ART" name="siUnSoldadoPeleaEntoncesSusPuntosDeVidaSeReducenALaMitadDelValorDelAtaque" finished-at="2023-12-12T18:17:34 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siUnSoldadoPeleaEntoncesSusPuntosDeVidaSeReducenALaMitadDelValorDelAtaque -->
+        <test-method signature="siUnSoldadoPeleaVariasVecesEntoncesSusPuntosDeVidaSeReducenALaMitadDeLaSumaDeLosAtaques()[pri:0, instance:org.example.PruebaSoldado@35ef1869]" started-at="2023-12-12T18:17:34 ART" name="siUnSoldadoPeleaVariasVecesEntoncesSusPuntosDeVidaSeReducenALaMitadDeLaSumaDeLosAtaques" finished-at="2023-12-12T18:17:34 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siUnSoldadoPeleaVariasVecesEntoncesSusPuntosDeVidaSeReducenALaMitadDeLaSumaDeLosAtaques -->
+        <test-method signature="siUnSoldadoRecibeDanioQueSuperaSusPuntosDeVidaEntoncesEstaMuerto()[pri:0, instance:org.example.PruebaSoldado@35ef1869]" started-at="2023-12-12T18:17:34 ART" name="siUnSoldadoRecibeDanioQueSuperaSusPuntosDeVidaEntoncesEstaMuerto" finished-at="2023-12-12T18:17:34 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siUnSoldadoRecibeDanioQueSuperaSusPuntosDeVidaEntoncesEstaMuerto -->
+        <test-method signature="siUnSoldadoRecibeMasDanioDelQueRecuperaDescansandoYLuegoDescansaEntoncesSusPuntosDeVidaDisminuyeron()[pri:0, instance:org.example.PruebaSoldado@35ef1869]" started-at="2023-12-12T18:17:34 ART" name="siUnSoldadoRecibeMasDanioDelQueRecuperaDescansandoYLuegoDescansaEntoncesSusPuntosDeVidaDisminuyeron" finished-at="2023-12-12T18:17:34 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- siUnSoldadoRecibeMasDanioDelQueRecuperaDescansandoYLuegoDescansaEntoncesSusPuntosDeVidaDisminuyeron -->
+        <test-method signature="unSoldadoMuertoNoPuedePelear()[pri:0, instance:org.example.PruebaSoldado@35ef1869]" started-at="2023-12-12T18:17:34 ART" name="unSoldadoMuertoNoPuedePelear" finished-at="2023-12-12T18:17:34 ART" duration-ms="2" status="PASS">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[El soldado esta muerto por lo que no puede realizar acciones]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: El soldado esta muerto por lo que no puede realizar acciones
+at org.example.Soldado.descansar(Soldado.java:26)
+at org.example.PruebaSoldado.unSoldadoMuertoNoPuedePelear(PruebaSoldado.java:91)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unSoldadoMuertoNoPuedePelear -->
+        <test-method signature="unSoldadoRecienCreadoNoEstaMuerto()[pri:0, instance:org.example.PruebaSoldado@35ef1869]" started-at="2023-12-12T18:17:34 ART" name="unSoldadoRecienCreadoNoEstaMuerto" finished-at="2023-12-12T18:17:34 ART" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unSoldadoRecienCreadoNoEstaMuerto -->
+      </class> <!-- org.example.PruebaSoldado -->
+    </test> <!-- Prueba de Soldado -->
+  </suite> <!-- ICARO Automatización de pruebas -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ICARO Automatización de pruebas">
+    <test name="Prueba de Matemática">
+        <classes>
+            <class name="org.example.PruebaSuma">
+                <methods>
+                    <include name="validaSumaCero"/>
+                </methods>
+            </class>
+            <class name="org.example.PruebaProducto">
+                <methods>
+                    <include name="validaProductoPorCero"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Prueba de Soldado">
+        <classes>
+            <class name="org.example.PruebaSoldado"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->
