@@ -8,16 +8,6 @@
                     <include name="validaSumaCero"/>
                 </methods>
             </class>
-            <class name="org.example.PruebaProducto">
-                <methods>
-                    <include name="validaProductoPorCero"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-    <test name="Prueba de Soldado">
-        <classes>
-            <class name="org.example.PruebaSoldado"/>
         </classes>
     </test>
 </suite> <!-- Suite -->
