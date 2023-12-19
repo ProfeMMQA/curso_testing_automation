@@ -3,11 +3,12 @@
 <suite name="ICARO Automatización de pruebas">
     <test name="Prueba de Matemática">
         <classes>
-            <class name="org.example.PruebaSuma">
+            <class name="ar.org.icaro.automatizacion.PruebaSuma">
                 <methods>
                     <include name="validaSumaCero"/>
                 </methods>
             </class>
+            <class name="ar.org.icaro.automatizacion.PruebaSoldado"/>
         </classes>
     </test>
 </suite> <!-- Suite -->
