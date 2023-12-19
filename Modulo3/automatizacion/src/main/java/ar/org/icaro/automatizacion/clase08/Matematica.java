@@ -1,4 +1,4 @@
-package ar.org.icaro.automatizacion;
+package ar.org.icaro.automatizacion.clase08;
 
 public class Matematica {
 

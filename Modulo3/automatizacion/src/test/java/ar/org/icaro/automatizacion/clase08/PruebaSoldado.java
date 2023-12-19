@@ -1,4 +1,4 @@
-package ar.org.icaro.automatizacion;
+package ar.org.icaro.automatizacion.clase08;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
