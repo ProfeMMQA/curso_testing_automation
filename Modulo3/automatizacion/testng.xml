@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="ICARO Automatización de pruebas">
-    <test name="Prueba de Matemática">
+    <listeners>
+        <listener class-name="ar.org.icaro.automatizacion.reporte.Reporte" />
+    </listeners>
+    <test name="Prueba Selenium">
         <classes>
-            <class name="ar.org.icaro.automatizacion.clase08.PruebaSuma">
+            <class name="ar.org.icaro.automatizacion.clase11.PruebaWikipediaSelenium">
                 <methods>
-                    <include name="validaSumaCero"/>
+                    <exclude name="validarTituloSeleniumWikipedia"/>
                 </methods>
             </class>
-            <class name="ar.org.icaro.automatizacion.clase08.PruebaSoldado"/>
         </classes>
     </test>
 </suite> <!-- Suite -->
