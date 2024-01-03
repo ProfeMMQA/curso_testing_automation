@@ -4,13 +4,9 @@
     <listeners>
         <listener class-name="ar.org.icaro.automatizacion.reporte.Reporte" />
     </listeners>
-    <test name="Prueba Selenium">
+    <test name="Prueba Wikipedia">
         <classes>
-            <class name="ar.org.icaro.automatizacion.clase11.PruebaWikipediaSelenium">
-                <methods>
-                    <exclude name="validarTituloSeleniumWikipedia"/>
-                </methods>
-            </class>
+            <class name="ar.org.icaro.automatizacion.clase11.PruebaWikipediaSelenium"/>
         </classes>
     </test>
 </suite> <!-- Suite -->

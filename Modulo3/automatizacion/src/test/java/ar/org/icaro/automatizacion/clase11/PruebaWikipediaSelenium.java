@@ -41,12 +41,9 @@ public class PruebaWikipediaSelenium {
 
     @Test(dataProvider = "fuenteDeDatos")
     public void actividad1(String terminoDeBusqueda, String tituloEsperado, String tituloImagenEsperado) {
-
         String url = "https://www.wikipedia.org/";
 
         driver.get(url);
-
-        Assert.fail();
 
         WikipediaMainPage mainPage = new WikipediaMainPage(driver);
 
