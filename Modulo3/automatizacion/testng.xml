@@ -6,7 +6,7 @@
     </listeners>
     <test name="Prueba Wikipedia">
         <classes>
-            <class name="ar.org.icaro.automatizacion.clase11.PruebaWikipediaSelenium"/>
+            <class name="ar.org.icaro.automatizacion.clase12.CucumberRunnerTests"/>
         </classes>
     </test>
 </suite> <!-- Suite -->
