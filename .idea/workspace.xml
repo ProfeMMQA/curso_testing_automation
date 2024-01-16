@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8acdc3e-59b1-43e4-9929-df6fdc896978" name="Changes" comment="Subo excepciones y cambios en la estructura" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\mmoran\OneDrive - Practia\Escritorio\Curso QA\Avanzado QA\clases\curso_testing_automation\htmlReport" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Z8tdqmVTfDJbi9YbFqkjU3C3UP" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/mmoran/OneDrive - Practia/Escritorio/Curso QA/Avanzado QA/clases/curso_testing_automation/Modulo3/automatizacion"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mmoran\OneDrive - Practia\Escritorio\Curso QA\Avanzado QA\clases\curso_testing_automation\src\clase05\excepciones\calculadora\errorManejadoEnMetodo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.clase05.excepciones.cuentaBancaria.Main">
+    <configuration name="HolaMundo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clase02.HolaMundo" />
+      <module name="curso_testing_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clase02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clase05.excepciones.calculadora.metodoArrojaError.Main" />
+      <module name="curso_testing_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clase05.excepciones.calculadora.metodoArrojaError.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clase05.excepciones.calculadora.errorManejadoEnMetodo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clase05.excepciones.calculadora.errorManejadoEnMetodo.Main" />
+      <module name="curso_testing_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clase05.excepciones.calculadora.errorManejadoEnMetodo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clase05.excepciones.cuentaBancaria.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="clase05.excepciones.cuentaBancaria.Main" />
+      <module name="curso_testing_automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="clase05.excepciones.calculadora.metodoArrojaError.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.clase05.excepciones.cuentaBancaria.Main" />
+        <item itemvalue="Application.clase05.excepciones.calculadora.errorManejadoEnMetodo.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.HolaMundo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8acdc3e-59b1-43e4-9929-df6fdc896978" name="Changes" comment="" />
+      <created>1701815624606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701815624606</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Modifique HolaMundo de la clase02">
+      <created>1701815929577</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701815929577</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Aychalai">
+      <created>1701816127107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701816127107</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Subo primer ejercicio de excepciones">
+      <created>1701817553782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701817553782</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Subo excepciones y cambios en la estructura">
+      <created>1701875426591</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701875426591</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modifique HolaMundo de la clase02" />
+    <MESSAGE value="Aychalai" />
+    <MESSAGE value="Subo primer ejercicio de excepciones" />
+    <MESSAGE value="Subo excepciones y cambios en la estructura" />
+    <option name="LAST_COMMIT_MESSAGE" value="Subo excepciones y cambios en la estructura" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/curso_testing_automation$Main.ic" NAME="Main Coverage Results" MODIFIED="1701820732799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>clase05.excepciones.*</FILTER>
+    </SUITE>
+  </component>
+</project>
