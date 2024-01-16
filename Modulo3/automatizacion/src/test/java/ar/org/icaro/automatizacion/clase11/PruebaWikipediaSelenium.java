@@ -59,6 +59,19 @@ public class PruebaWikipediaSelenium {
         Assert.assertEquals(tituloDeImagen, tituloImagenEsperado, "Los titulos no coinciden");
     }
 
+    @Test
+    public void pruebaScroll() {
+        driver.get("https://opencart.abstracta.us/index.php?route=account/register");
+
+        WebElement accountDiv = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("content")));
+
+        int deltaY = accountDiv.getRect().y;
+
+        new Actions(driver)
+                .scrollByAmount(0, deltaY)
+                .perform();
+    }
+
     @AfterClass
     public void tearDown() {
         if (driver != null) {

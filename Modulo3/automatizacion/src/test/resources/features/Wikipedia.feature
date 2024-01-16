@@ -1,23 +1,21 @@
 #language:es
 
-Característica: Buscar términos en Wikipedia
+Característica: Buscar en Wikipedia
 
-  Antecedentes:
-    Dado que el usuario se encuentra en la pagina principal de wikipedia
+  Escenario: Buscar un término con artículo existente
+    Dado un usuario que se encuentra en la pagina principal de Wikipedia
+    Cuando el usuario navega a la seccion en espanol
+    Y realiza la busqueda del termino "Selenium"
+    Entonces se muestra el titulo "Selenium"
+    Y se muestra el titulo de la imagen "Selenium"
 
-  Escenario: Buscar un término en Wikipedia
-    Cuando el usuario ingresa a la sección en español
-    Y realiza la búsqueda de "Selenium"
-    Entonces observa que el título del artículo es "Selenium"
-    Y observa que el título de la imagen es "Selenium"
-
-  Esquema del escenario:
-    Cuando el usuario ingresa a la sección en español
-    Y realiza la búsqueda de <terminoDeBusqueda>
-    Entonces observa que el título del artículo es <tituloEsperado>
-    Y observa que el título de la imagen es <tituloDeImagenEsperado>
+  Esquema del escenario: Buscar un término con artículo existente
+    Dado un usuario que se encuentra en la pagina principal de Wikipedia
+    Cuando el usuario navega a la seccion en espanol
+    Y realiza la busqueda del termino <terminoDeBusqueda>
+    Entonces se muestra el titulo <tituloEsperado>
+    Y se muestra el titulo de la imagen <tituloImagenEsperado>
     Ejemplos:
-      | terminoDeBusqueda | tituloEsperado   | tituloDeImagenEsperado |
-      | "Selenium"        | "Selenium"       | "Selenium"             |
-      | "idioma español"  | "Idioma español" | "Español / Castellano" |
-
+      |terminoDeBusqueda|tituloEsperado|tituloImagenEsperado|
+      |"Selenium"       |"Selenium"    |"Selenium"          |
+      | "idioma español"|"Idioma español"|"Español / Castellano" |
